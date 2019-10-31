@@ -1,110 +1,20 @@
-ion-back-button{
-    --icon-margin-end:0px;
-    --icon-padding-end:0px;
-    --margin-end-:0px;
-    --padding-end:0px;
-    --icon-margin-start:0px;
-    --icon-padding-start:0px;
-    --margin-start-:0px;
-    --padding-start:0px;
-}
 ion-content{
     text-align: center;
     --background: none;
 }
-ion-list{
-    margin:0 10%;
-    background: none;
-}
 ion-card{
-    margin-left: 0.5%;
-    width: 99%;
-    --background:rgb(255,255,255,0.7);
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%; 
+    --background: white;
     border-top: 2px solid orange;
-}
-ion-card-content{
-    padding-left:0%;
-    padding-block-start: 1%;
-    padding-block-end: 1%;
-}
-.carditem{
-    --background: none;
-}
-.listhead{
-    background: none;
-    font-size: 17px;
-    color:darkorange;
 }
 .date{
     font-size: 14px;
     color: green;
 }
-.menuparent{
-    --background:#f2f2f2;
-    --padding-start:0%;
-    --inner-padding-end:3%;
-}
-.itemtag1{
-    --color: white;
-    --background: #70ad47;
-    --border-style: solid;
-    --border-color:#507e32;
-    --border-width:2.5px;
-    --border-radius: 5px;
-    width: 22px;
-}
-.itemtag2{
-    --color: white;
-    --background: #5b9bd5;
-    --border-style: solid;
-    --border-color:#41719c;
-    --border-width:2.5px;
-    --border-radius: 5px;
-    width: 22px;
-}
-.itemtag3{
-    --color: white;
-    --background: #ed7d31;
-    --border-style: solid;
-    --border-color:#ae5a21;
-    --border-width:2.5px;
-    --border-radius: 5px;
-    width: 22px;
-}
-.tagicon{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 30%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
 .itemmenu{
     color:#b25414;
-    --border-color:#bf9000;
     font-size: 15px;
-    width: 100%;
     --background:#f2f2f2;
-    --padding-start:0%;
-}
-.menutag1ico{
-    width: 40px;
-    height: 40px;
-    background: #f2f2f2 url('../../assets/images/dosa.png') no-repeat center center / cover;
-    margin-inline-start: 10px;
-    margin-inline-end: 10px;
-}
-.menutag2ico{
-    width: 40px;
-    height: 40px;
-    background: #f2f2f2 url('../../assets/images/noodle.png') no-repeat center center / cover;
-    margin-inline-start: 10px;
-    margin-inline-end: 10px;
-}
-.menutag3ico{
-    width: 40px;
-    height: 40px;
-    background: #f2f2f2 url('../../assets/images/rice.png') no-repeat center center / cover;
-    margin-inline-start: 10px;
-    margin-inline-end: 10px;
 }

@@ -18,6 +18,7 @@ import { ModalPageModule } from './modal/modal.module';
 import { SignupPageModule } from './signup/signup.module';
 import { ForgotPageModule } from './forgot/forgot.module';
 import { Network } from '@ionic-native/network/ngx';
+import { PhotoViewer } from '@ionic-native/photo-viewer/ngx';
 
 @NgModule({
   declarations: [AppComponent],
@@ -39,6 +40,7 @@ import { Network } from '@ionic-native/network/ngx';
     RestService,
     NetworkService,
     Network,
+    PhotoViewer,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]
